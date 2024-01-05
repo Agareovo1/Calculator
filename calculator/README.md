@@ -15,6 +15,7 @@ To use the calculator, follow these steps:
 
 ## Installation
 
+
 Follow the steps below to set up and run the React calculator app:
 
 1. Clone the repository to your local machine.
