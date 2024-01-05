@@ -1,0 +1,48 @@
+/* ./src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+@layer base{
+  button {
+    @apply px-4 py-2 rounded-md transition duration-300 ease-in-out focus:outline-none;
+  }
+
+  #numberButton {
+    @apply bg-gray-500 text-red-200 font-semibold;
+  }
+
+  #operatorButton {
+    @apply bg-blue-500 text-black font-bold;
+  }
+
+  #resultButton {
+    @apply bg-gray-500 text-red-200 font-semibold;
+  }
+
+  #scientificOperationButton {
+    @apply bg-black text-red-200 font-semibold;
+  }
+
+  #clearButton {
+    @apply  bg-cyan-300 text-black font-semibold;
+  }
+
+  #backspaceButton {
+    @apply bg-gray-500 text-red-200 font-semibold;
+  }
+
+  .buffer {
+    @apply bg-blue-800 w-full h-16 text-right border border-black
+  }
+
+  
+  
+
+  .gridContainer {
+    @apply grid grid-cols-4 gap-0.5;
+  }
+}
